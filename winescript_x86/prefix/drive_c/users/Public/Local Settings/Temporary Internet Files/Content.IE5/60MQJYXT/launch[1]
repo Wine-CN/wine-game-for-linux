@@ -1,0 +1,153 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>普通游戏客户端</title>
+<link href="http://launch.ali213.net/game/css/launch_625_utf8.css" rel="stylesheet" type="text/css" />
+<script>
+function setTab(name,cursel,n){
+ for(i=1;i<=n;i++){
+  var nav=document.getElementById(name+i);
+  var conlist=document.getElementById("con_"+name+"_"+i);
+  nav.className=i==cursel?"cr_hover":"";
+  conlist.style.display=i==cursel?"block":"none";
+ }
+}
+</script>
+</head>
+<body>
+
+<div class="content_body">
+
+	<div class="content_body_left">
+    		    		
+    		<div class="clear_5"></div>
+    		
+        <div class="content_body_left_left">
+        	
+            <div class="clear_5"></div>
+            
+            <div class="content_search">
+            	
+                <div class="search">
+                    <form id="cse-search-box" target="_blank" method="get" action="http://so.ali213.net/">
+                        <input class="soinput" type="text" size="40" name="keyword"><input type="hidden" name="form_type" value="1"><input class="sobutton" type="submit" value="搜 索" name="submit">
+                    </form>
+                </div>
+                
+            </div>
+            
+            <div class="clear_5"></div>
+            
+            
+            <div class="pt_l_c_l">
+             <div class="pt_newstjtit"><a href="http://www.ali213.net/news/html/2018-11/395137.html" target="_blank">《Dota2》7.20c版本更新</a>&nbsp;&nbsp;<a href="http://www.ali213.net/news/html/2018-11/395133.html" target="_blank">战地5VS战地1 画面对比 </a>&nbsp;&nbsp;</div><div class="clear_5"></div><div class="pt_newstjcon"><p style="text-align: center"><a href="http://www.ali213.net/news/html/2018-11/394777.html" target="_blank"><span style="color: #3366ff"><u>杭州电竞数娱小镇开园</u></span></a><span style="color: #dfdfdf">|</span>&nbsp;<a href="http://pubg.ali213.net/?huizi" target="_blank"><span style="color: #3366ff"><u>绝地求生 吃鸡查询</u></span></a><span style="color: #dfdfdf">|</span>&nbsp;<a href="http://ali213_share.fhyx.hk/" target="_blank"><span style="color: #3366ff"><u>正版游戏 一元畅玩</u></span></a></p></div>   
+						<div class="clear_5"></div>
+                
+                <div class="pt_newslist">
+                	<ul>
+               
+             <li ><a href="http://www.ali213.net/news/html/2018-11/395237.html" title="《辐射76》Overlay MOD可开启Steam Overlay功能！" target="_blank">《辐射76》Overlay MOD可开启Steam Overlay功能！</a></li>
+	 	   	   		
+	 	   	   		<li ><a href="http://www.ali213.net/news/html/2018-11/395235.html" title="表彰大会发猪蹄火了！ 每日轻松一刻11月25日晚间版" target="_blank">表彰大会发猪蹄火了！ 每日轻松一刻11月25日晚间版</a></li>
+	 	   	   		
+	 	   	   		<li ><a href="http://www.ali213.net/news/html/2018-11/395231.html" title="《堡垒之夜》皮肤道具“Fowl Play”灵感来源8岁小孩" target="_blank">《堡垒之夜》皮肤道具“Fowl Play”灵感来源8岁小孩</a></li>
+	 	   	   		
+	 	   	   		<li ><a href="http://www.ali213.net/news/html/2018-11/395095.html" title="今日看点：《Dota2》版本更新 虚幻4重制口袋妖怪" target="_blank">今日看点：《Dota2》版本更新 虚幻4重制口袋妖怪</a></li>
+	 	   	   		
+	 	   	   		<li ><a href="http://www.ali213.net/news/html/2018-11/395233.html" title="妹子付出了巨大的牺牲 动图 睡得迷迷糊糊时发生了啥" target="_blank">妹子付出了巨大的牺牲 动图 睡得迷迷糊糊时发生了啥</a></li>
+	 	   	   		
+	 	   	   		<li ><a href="http://www.ali213.net/news/html/2018-11/395229.html" title="2018年度电影总票房超558.39亿！创造历史新高！" target="_blank">2018年度电影总票房超558.39亿！创造历史新高！</a></li>
+	 	   	   		
+	 	   	   		<li  style="border-bottom:none;"><a href="http://www.ali213.net/news/html/2018-11/395227.html" title="《少数幸运儿》前期宣传太高期待 导致后期带不动了!" target="_blank">《少数幸运儿》前期宣传太高期待 导致后期带不动了!</a></li>
+	 	   	   		
+	 	   	   		   
+               	
+                  </ul>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div class="content_body_left_right">
+        	<div class="clear_5"></div>
+            <ul class="hover_menu">
+            	<li id="d1" onmouseover="setTab('d',1,2);" class="cr_hover">热门游戏</li>
+                <li id="d2" onmouseover="setTab('d',2,2);">下载排行</li>
+            </ul>
+        	<div class="clear_5"></div>
+            
+            
+            <div class="web_list" id="con_d_1">
+       
+                <ul>
+                	<script type="text/javascript" src="http://web.ali213.net/kf/web-ali213-launch.js"></script>
+                </ul>
+                
+            </div>
+            
+            
+            
+            <div class="pt_topcon" id="con_d_2" style="display:none;">
+            <ul>
+             <li class="li1"><a href="http://down.ali213.net/pcgame/playerunknownsbg.html" title="《绝地求生大逃杀》官方中文正式版[Build 20180814|官方中文|正版分流]" target="_blank">绝地求生大逃杀</a></li><li class="li2"><a href="http://down.ali213.net/pcgame/pes2018.html" title="《实况足球2018》免安装中文绿色版[巴塞罗那版|官方中文|整合CPY免DVD补丁]" target="_blank">实况足球2018</a></li><li class="li3"><a href="http://down.ali213.net/pcgame/awvssaomt.html" title="《加速世界VS刀剑神域：千年的黄昏》免安装繁体中文绿色版[豪华版|官方中文]" target="_blank">加速世界VS刀剑神域：千年的黄昏</a></li><li class="li4"><a href="http://down.ali213.net/pcgame/GTA5.html" title="《侠盗猎车手5》免安装繁体中文绿色版[v1.0.350.1版|官方繁中]" target="_blank">侠盗猎车手5</a></li><li class="li5"><a href="http://down.ali213.net/pcgame/TheSims4.html" title="《模拟人生4》免安装繁体中文豪华绿色版[v1.47.51.1020版全DLC|含最新星梦起飞DLC|游侠珍藏版]" target="_blank">模拟人生4</a></li><li class="li6"><a href="http://down.ali213.net/pcgame/War3FT.html" title="《魔兽争霸3：冰封王座》免安装简体中文绿色版[v1.20e-v1.27a版|收藏版|完美兼容Win 7/8.1/10]" target="_blank">魔兽争霸3</a></li><li class="li7"><a href="http://down.ali213.net/pcgame/arksurvivalevolved.html" title="《方舟：生存进化》免安装简体中文绿色版[v281.107正式版整合6DLC|官方中文]" target="_blank">方舟：生存进化</a></li><li class="li8"><a href="http://down.ali213.net/pcgame/nba2k18.html" title="《NBA 2K18》免安装简体中文绿色版[传奇黄金版|正版分流|官方中文]" target="_blank">NBA 2K18</a></li><li class="li9"><a href="http://down.ali213.net/pcgame/san13pk.html" title="《三国志13威力加强版》免安装繁体中文绿色版[v1.05版Build20170926整合73DLC|官方中文|正版分流]" target="_blank">三国志13威力加强版</a></li><li class="li10"><a href="http://down.ali213.net/pcgame/zeldabotwchs.html" title="《塞尔达传说：荒野之息》免安装简体中文绿色版[v1.3.0版+DLC2.0|集成WiiU模拟器1.8.1b|游侠LMAO汉化3.1]" target="_blank">塞尔达传说：荒野之息</a></li>            </ul>
+        </div>
+
+            
+            
+            
+        
+        </div>
+        
+        <div class="left_gg" onmouseover="splay()" onmouseout="shidden()"><script src="http://bmp.ali213.net/js/354.js"></script></div>
+        
+        <div id="focus_over" onmouseover="splay()" onmouseout="shidden()"><script src="http://bmp.ali213.net/js/365.js"></script></div>
+        
+        <div id="focus_close"><img src="http://bmp.ali213.net/Pics/x.jpg" /></div>
+        <script>
+			var focus_over = document.getElementById("focus_over");
+			var focus_close = document.getElementById("focus_close"); 
+			function splay(){
+				if(focus_over.style.visibility = "hidden"){
+					focus_over.style.visibility = "visible";
+				}
+				if(focus_close.style.visibility = "hidden"){
+					focus_close.style.visibility = "visible";
+				}
+			}
+			function shidden(){
+				if(focus_over.style.visibility != "hidden"){
+					focus_over.style.visibility = "hidden";
+				}
+				if(focus_close.style.visibility != "hidden"){
+					focus_close.style.visibility = "hidden";
+				}
+			}
+			var wait=60;
+			for(i=1;i<=wait;i++) {
+			    window.setTimeout("doUpdate(" + i + ")", i * 100);
+			}
+			function doUpdate(num) {
+			    if(num == wait) {
+			    	shidden();
+			    }
+			}
+		</script>        
+    
+    </div>
+    <div class="content_body_right"><script src="http://bmp.ali213.net/js/360.js"></script></div>
+    
+</div>
+
+</body>
+</html>
+<div style="display:none"><script src="http://s84.cnzz.com/stat.php?id=4647070&web_id=4647070" language="JavaScript"></script><script type="text/javascript"> 
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F2207c39aecfe7b9b0f144ab7f8316fad' type='text/javascript'%3E%3C/script%3E"));
+</script></div>

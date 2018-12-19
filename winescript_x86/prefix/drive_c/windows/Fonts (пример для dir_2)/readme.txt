@@ -1,0 +1,1 @@
+../../../../game_info/additional/dir_2/readme.txt

@@ -1,0 +1,123 @@
+<patch>
+   <locale language="Japanese" currentVersion="1.03">
+      <update fromVersion="1.0">
+         <file name="aomx10to103.cab" size="3741829" crc="-926628432"/>
+      </update> 
+      <update fromVersion="1.01">
+         <file name="aomx101to103.cab" size="3589685" crc="-1180522144"/>
+      </update> 
+      <update fromVersion="1.02">
+         <file name="aomx102to103.cab" size="1941402" crc="594327038"/>
+      </update> 
+   </locale>
+   <locale language="English" currentVersion="1.03">
+      <update fromVersion="1.0">
+         <file name="aomx10to103.cab" size="3741829" crc="-926628432"/>
+      </update> 
+      <update fromVersion="1.01">
+         <file name="aomx101to103.cab" size="3589685" crc="-1180522144"/>
+      </update> 
+      <update fromVersion="1.02">
+         <file name="aomx102to103.cab" size="1941402" crc="594327038"/>
+      </update> 
+   </locale>
+   <locale language="Taiwan" currentVersion="1.03">
+      <update fromVersion="1.0">
+         <file name="aomx10to103.cab" size="3741829" crc="-926628432"/>
+      </update> 
+      <update fromVersion="1.01">
+         <file name="aomx101to103.cab" size="3589685" crc="-1180522144"/>
+      </update> 
+      <update fromVersion="1.02">
+         <file name="aomx102to103.cab" size="1941402" crc="594327038"/>
+      </update> 
+   </locale>
+   <locale language="Korean" currentVersion="1.03">
+      <update fromVersion="1.0">
+         <file name="aomx10to103.cab" size="3741829" crc="-926628432"/>
+      </update> 
+      <update fromVersion="1.01">
+         <file name="aomx101to103.cab" size="3589685" crc="-1180522144"/>
+      </update> 
+      <update fromVersion="1.02">
+         <file name="aomx102to103.cab" size="1941402" crc="594327038"/>
+      </update> 
+   </locale>
+   <locale language="German" currentVersion="1.03">
+      <update fromVersion="1.0">
+         <file name="aomx10to103.cab" size="3741829" crc="-926628432"/>
+      </update> 
+      <update fromVersion="1.01">
+         <file name="aomx101to103.cab" size="3589685" crc="-1180522144"/>
+      </update> 
+      <update fromVersion="1.02">
+         <file name="aomx102to103.cab" size="1941402" crc="594327038"/>
+      </update> 
+   </locale>
+   <locale language="French" currentVersion="1.03">
+      <update fromVersion="1.0">
+         <file name="aomx10to103.cab" size="3741829" crc="-926628432"/>
+      </update> 
+      <update fromVersion="1.01">
+         <file name="aomx101to103.cab" size="3589685" crc="-1180522144"/>
+      </update> 
+      <update fromVersion="1.02">
+         <file name="aomx102to103.cab" size="1941402" crc="594327038"/>
+      </update> 
+   </locale>
+   <locale language="Italian" currentVersion="1.03">
+      <update fromVersion="1.0">
+         <file name="aomx10to103.cab" size="3741829" crc="-926628432"/>
+      </update> 
+      <update fromVersion="1.01">
+         <file name="aomx101to103.cab" size="3589685" crc="-1180522144"/>
+      </update> 
+      <update fromVersion="1.02">
+         <file name="aomx102to103.cab" size="1941402" crc="594327038"/>
+      </update> 
+   </locale>
+   <locale language="Spanish" currentVersion="1.03">
+      <update fromVersion="1.0">
+         <file name="aomx10to103.cab" size="3741829" crc="-926628432"/>
+      </update> 
+      <update fromVersion="1.01">
+         <file name="aomx101to103.cab" size="3589685" crc="-1180522144"/>
+      </update> 
+      <update fromVersion="1.02">
+         <file name="aomx102to103.cab" size="1941402" crc="594327038"/>
+      </update> 
+   </locale>
+   <locale language="Brazilian" currentVersion="1.03">
+      <update fromVersion="1.0">
+         <file name="aomx10to103.cab" size="3741829" crc="-926628432"/>
+      </update> 
+      <update fromVersion="1.01">
+         <file name="aomx101to103.cab" size="3589685" crc="-1180522144"/>
+      </update> 
+      <update fromVersion="1.02">
+         <file name="aomx102to103.cab" size="1941402" crc="594327038"/>
+      </update> 
+   </locale>
+   <locale language="Portuguese" currentVersion="1.03">
+      <update fromVersion="1.0">
+         <file name="aomx10to103.cab" size="3741829" crc="-926628432"/>
+      </update> 
+      <update fromVersion="1.01">
+         <file name="aomx101to103.cab" size="3589685" crc="-1180522144"/>
+      </update> 
+      <update fromVersion="1.02">
+         <file name="aomx102to103.cab" size="1941402" crc="594327038"/>
+      </update> 
+   </locale>
+   <locale language="Nordic" currentVersion="1.03">
+      <update fromVersion="1.0">
+         <file name="aomx10to103.cab" size="3741829" crc="-926628432"/>
+      </update> 
+      <update fromVersion="1.01">
+         <file name="aomx101to103.cab" size="3589685" crc="-1180522144"/>
+      </update> 
+      <update fromVersion="1.02">
+         <file name="aomx102to103.cab" size="1941402" crc="594327038"/>
+      </update> 
+   </locale>
+</patch>

@@ -1,0 +1,10 @@
+; File generated automatically from ../wine/dlls/d3d11/d3d11.spec; do not edit!
+
+LIBRARY d3d11.dll
+
+EXPORTS
+  D3D11CoreCreateDevice@24 @1
+  D3D11CoreRegisterLayers@0 @4
+  D3D11CreateDevice@40 @5
+  D3D11CreateDeviceAndSwapChain@48 @6
+  D3D11On12CreateDevice@40 @7

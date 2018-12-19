@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion]
+"CSDVersion"="Service Pack 1"
+"CurrentBuildNumber"="7601"
+"CurrentVersion"="6.1"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Windows]
+"CSDVersion"=dword:00000100
+

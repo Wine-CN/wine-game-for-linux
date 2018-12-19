@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\Drivers\]
+"winevulkan.json"=dword:00000000
+
+[-HKEY_CURRENT_USER\Software\Wine\DllOverrides]
+"d3d11"="native"
+"dxgi"="native"
+"d3d10"="native"
+"d3d10_1"="native"
+"d3d10core"="native"
+"d3d8"="native"
+"ddraw"="native"
+
