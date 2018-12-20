@@ -41,7 +41,6 @@ export DIR="$(dirname "$SCRIPT")"
 ## WINE执行程序
 
 WINE="$DIR/wine/bin/wine"
-WINE64="$DIR/wine/bin/wine64"
 WINESERVER="$DIR/wine/bin/wineserver"
 REGEDIT="$DIR/wine/bin/regedit"
 WINECFG="$DIR/wine/bin/winecfg"
@@ -141,7 +140,6 @@ elif [ "$WINVER" = "win7" ]; then
 	csdversion_hex=dword:00000100
 
 	"$WINE" reg add "HKLM\\System\\CurrentControlSet\\Control\\ProductOptions" /v ProductType /d "WinNT" /f
-	"$WINE64" reg add "HKLM\\System\\CurrentControlSet\\Control\\ProductOptions" /v ProductType /d "WinNT" /f
 fi
 
 # Create registry file
@@ -156,7 +154,7 @@ echo -e '"CSDVersion"='$csdversion_hex'\n' >> "$WINEPREFIX/drive_c/setwinver.reg
 
 # Apply and delete registry file
 "$WINE" regedit C:\setwinver.reg
-#rm "$WINEPREFIX/drive_c/setwinver.reg"
+rm "$WINEPREFIX/drive_c/setwinver.reg"
 
 ## 声音驱动设置为PulseAudio
 
@@ -192,7 +190,6 @@ if [ $CSMT_DISABLE = 1 ] && [ ! -f "$WINEPREFIX/drive_c/csmt.reg" ]; then
 
 	# Apply registry file
 	"$WINE" regedit C:\csmt.reg
-	"$WINE64" regedit C:\csmt.reg
   echo "CSMT已启用"
 elif [ $CSMT_DISABLE = 0 ] && [ -f "$WINEPREFIX/drive_c/csmt.reg" ]; then
 	# Create registry file
@@ -202,7 +199,6 @@ elif [ $CSMT_DISABLE = 0 ] && [ -f "$WINEPREFIX/drive_c/csmt.reg" ]; then
 
 	# Apply registry file
 	"$WINE" regedit C:\csmt.reg
-	"$WINE64" regedit C:\csmt.reg
 	rm "$WINEPREFIX/drive_c/csmt.reg"
 fi
 
